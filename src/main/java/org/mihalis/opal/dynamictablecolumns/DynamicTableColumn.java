@@ -43,7 +43,7 @@ public class DynamicTableColumn extends TableColumn {
 					if (preferredfLength.getMeasure() == DynamicLengthMeasure.PIXEL) {
 						preferredfLength.setValue((double) getWidth());
 					}
-					getParent().layout();
+//					getParent().layout();
 				}
 			}
 		});
